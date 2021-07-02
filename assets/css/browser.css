@@ -163,7 +163,9 @@ h1 {
     letter-spacing: 0.02em;
     overflow: hidden;
     white-space: nowrap;
-    text-shadow: -0.275vh -0.275vh 0vh #000, 0.275vh -0.275vh 0vh #000, -0.275vh 0.275vh 0vh #000, 0.275vh 0.275vh 0vh #000, 0.5vh 0.6vh 0vh rgba(0,0,0,0.4);
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.4);
     -webkit-text-size-adjust: 100%;
     line-height: 100%;
 }
@@ -175,7 +177,9 @@ h2 {
     font-family: Pusab, Arial;
     color: rgb(255, 200, 0);
     letter-spacing: 0.02em;
-    text-shadow: -0.275vh -0.275vh 0vh #000, 0.275vh -0.275vh 0vh #000, -0.275vh 0.275vh 0vh #000, 0.275vh 0.275vh 0vh #000, 0.5vh 0.5vh 0vh rgba(0,0,0,0.4);
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.4);
 }
 
 h3, input[type=text], input[type=password], input[type=number], .h3Size {
